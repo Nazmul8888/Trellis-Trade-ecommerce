@@ -1,9 +1,12 @@
+import Banner from "../Pages/Banner/Banner";
+import Explore from "../Pages/Explore/Explore";
 
 
 const Home = () => {
     return (
         <div>
-            this is home
+          <Banner></Banner>
+          <Explore></Explore>
         </div>
     );
 };
