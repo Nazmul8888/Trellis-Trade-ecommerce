@@ -6,8 +6,8 @@ const Navbar = () => {
  
 
     const navLinks = <>
-    <li><Link to='/'>Home</Link></li>
-    <li><Link to='/childHealth'>Child & Health</Link></li>
+    <li ><Link  to='/'>Home</Link></li>
+    <li><Link to='/brands'>Brands</Link></li>
     <li><Link to='/healthWellness'>Health & Wellness</Link></li>
     <li><Link to='/personalCare'>Personal Care</Link></li>
     
@@ -37,7 +37,7 @@ const Navbar = () => {
   </div>
   
   <div className="navbar-end gap-5">
-    <a className="btn bg-red-500">Pre Order</a>
+    <a className="rounded-full bg-sky-600 px-6 py-2 text-white transition-all duration-300 hover:scale-90">Pre Order</a>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">
@@ -65,6 +65,8 @@ const Navbar = () => {
 
 
 
+
+   
 
 
         </div>
